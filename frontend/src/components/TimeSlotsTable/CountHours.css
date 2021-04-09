@@ -1,0 +1,11 @@
+.countHours{
+    display: table;
+    width: 100%;
+}
+
+.countHour{
+    display: table-cell;
+    width: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}

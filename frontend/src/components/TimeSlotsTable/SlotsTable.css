@@ -1,0 +1,23 @@
+.tableContainer{
+  display: flex;
+}
+
+.table-drag-select td {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+.table-drag-select td.cell-enabled {
+  background-color: white;
+}
+
+.table-drag-select td.cell-enabled.cell-selected.cell-being-selected{
+  background-color: #ffc638;
+}
+
+.table-drag-select td.cell-being-selected {
+  background-color: #ffc638;
+}
+
+.table-drag-select td.cell-selected {
+  background-color: red;
+}
